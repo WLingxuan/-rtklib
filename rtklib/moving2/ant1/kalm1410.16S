@@ -1,0 +1,319 @@
+version: teqc  2012Jun6
+
+ SV+----------|------------------------------|------------------------------+ SV
+  1|ccccccccccccccccccccccccccccccccccccccccccccccccc-cccccccccccccccccccccc|  1
+  2|                                                                        |  2
+  4|                                                                        |  4
+  5|                                                                        |  5
+  6|----------------ccccccccccLccccccccccL-cLcccccccccccLLcccL.LLccccccccccc|  6
+  7|---------------ccccccccccc-L-LLcLLL----ccccc^^^^^^LLLLL^L^LL^^L^^^^L^^^L|  7
+  8|cccccccLcLLLLLLLLLLLLLLLLLLL^^LLLLLLLLLL^LLLLLLLLL^^LLL^LL^LLLLL^^LLLLLL|  8
+  9|                                                                        |  9
+ 10|                                                                        | 10
+ 11|ccccccccccLLcc-ccccccccccccccccccccccc-cLcccccccccccccccLLcccccccccccccc| 11
+ 12|                                                                        | 12
+ 13|                                                                        | 13
+ 14|                                                                        | 14
+ 15|                                                                        | 15
+ 16|                                                                        | 16
+ 17|c-cLcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc| 17
+ 18|                                                                        | 18
+ 19|--cLcccccccccLLcLL-LLLLL----cLccccccccLLL--LLLcL---cLcccccccLLL-LL-LLLL-| 19
+ 20|                                                                        | 20
+ 21|                                                                        | 21
+ 22|cccccccccccccc-cLccccccccccccccccccccc-cLccccccccccccccccccccccccccccccc| 22
+ 23|                                                                        | 23
+ 24|                                                                        | 24
+ 25|                                                                        | 25
+ 27|                                                                        | 27
+ 28|c-cLcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc| 28
+ 29|                                                                        | 29
+ 30|-Lcccccccccccc-ccccccccccc--cccccccccc-cccccccccc-Lccccccccccccccccccccc| 30
+ 31|                                                                        | 31
+ 32|                                                                        | 32
+  3|c-cLcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc|  3
+ 26|                                                                        | 26
+-dn|               ++++++++++ ++++++++++++++++++++++++++++++++++++++++++++++|-dn
++dn|452222222222222  +     +  11 ++++++   2     ++++ 2 +++++++++++++++++++++|+dn
++10|bbbbbbbbbbbbbbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa999999999999999999999999999|+10
+Pos|ooooooooooooooooooooooooo oooooooooooooooooooooooooooooooooooooooooooooo|Pos
+Clk|                                                                        |Clk
+   +----------|------------------------------|------------------------------+   
+10:23:20.000                                                        10:34:57.000
+2016 May 20                                                          2016 May 20
+
+*********************
+QC of RINEX  file(s) : kalm1410.16o
+input RnxNAV file(s) : kalm1410.16n
+*********************
+
+4-character ID          : 
+Receiver type           : 
+Antenna type            : 
+
+Time of start of window : 2016 May 20  10:23:20.000
+Time of  end  of window : 2016 May 20  10:34:57.000
+Time line window length : 11.62 minute(s), ticked every 5.0 minute(s)
+  antenna WGS 84 (xyz)  : -2743171.5168 4692309.6369 3326225.7626 (m)
+  antenna WGS 84 (geo)  : N  31 deg 38' 12.32"  E 120 deg 18' 39.55"
+  antenna WGS 84 (geo)  :   31.636756 deg   120.310987 deg
+          WGS 84 height : 36.8283 m
+|qc - header| position  :  71.2621 m
+Observation interval    : 1.0000 seconds
+Total satellites w/ obs : 11
+NAVSTAR GPS SVs w/o OBS :  2   4   5   9  10  12  13  14  15  16  18  20 
+                          21  23  24  25  26  27  29  31  32 
+NAVSTAR GPS SVs w/o NAV :
+Rx tracking capability  : 0 SVs
+Poss. # of obs epochs   :    698
+Epochs w/ observations  :    698
+Epochs repeated         :      0  (0.00%)
+Possible obs >   0.0 deg:   7678
+Possible obs >  10.0 deg:   6844
+Complete obs >  10.0 deg:      0
+ Deleted obs >  10.0 deg:   6470
+  Masked obs <  10.0 deg:    310
+Obs w/ SV duplication   :      0  (within non-repeated epochs)
+Moving average MP1      : 0.000000 m
+Moving average MP2      : 0.000000 m
+Points in MP moving avg : 50
+Mean S1 S2              : 45.66 (sd=4.38 n=6470) 0.00 (sd=0.00 n=0)
+No. of Rx clock offsets : 0
+Total Rx clock drift    :  0.000000 ms
+Rate of Rx clock drift  :  0.000 ms/hr
+Avg time between resets : Inf minute(s)
+Freq no. and timecode   : 1 13284 000400
+Report gap > than       : 10.00 minute(s)
+epochs w/ msec clk slip : 0
+other msec mp events    : 0 (: 0)   {expect ~= 1:50}
+IOD signifying a slip   : >400.0 cm/minute
+IOD slips <  10.0 deg*  :      0
+IOD slips >  10.0 deg   :      0
+IOD or MP slips <  10.0*:      0
+IOD or MP slips >  10.0 :      0
+ * or unknown elevation
+      first epoch    last epoch    hrs   dt  #expt  #have   %   mp1   mp2 o/slps
+SUM 16  5 20 10:23 16  5 20 10:34 .1939   1   6844      0   0   n/a   n/a      0
+
+! Notice ! probably L1-only or P-codeless rx
+
+
+
+Processing parameters are:
+Receiver tracking capability       : 0 SVs
+Maximum ionospheric rate (L1)      : 400.00 cm/min
+Report data gap greater than       : 10.00 min
+Expected rms of MP1 multipath      : 50.00 cm
+Expected rms of MP2 multipath      : 65.00 cm
+Multipath slip sigma threshold     : 4.00 cm
+% increase in MP rms for C/A | A/S : 100.00 %
+Points in MP moving averages       : 50
+Minimum signal to noise for L1     : 0
+Minimum signal to noise for L2     : 0
+Elevation mask (cutoff)            : 10.00 degrees
+Elevation comparison threshold     : 25.00 degrees
+Orbit path spline fit sample time  : 10 min
+SVs w/ code data for position try  : 5
+Width of ASCII summary plot        : 72
+Data indicators on summary plot    : yes
+Do ionospheric observable          : yes
+Do ionospheric derivative          : yes
+Do high-pass ionosphere observable : no
+Do multipath observables           : yes
+Do 1-ms receiver clock slips       : yes
+Tolerance for 1-ms clock slips     : 1.00e-02 ms
+Do receiver LLI slips              : yes
+Do plot file(s)                    : yes
+
+Observations start   : 2016 May 20 10:23:20.000
+Observations  end    : 2016 May 20 10:34:57.000
+Observation interval : 1.0000 second(s)
+
+ SV  #+hor <ele> #+mask <ele> #reprt #compl    L1     L2     P1     P2     CA    L2C 
+--- ------ ----- ------ ----- ------ ------ ------ ------ ------ ------ ------ ------
+G01    698 44.24    698 44.24    697      0    697      0      0      0    697      0
+G06    698 21.39    698 21.39    545      0    533      0      0      0    545      0
+G07    698 10.48    428 11.29    275      0    256      0      0      0    275      0
+G08    698  9.10    134 10.28    134      0    131      0      0      0    134      0
+G11    698 31.37    698 31.37    696      0    694      0      0      0    696      0
+G17    698 41.58    698 41.58    697      0    697      0      0      0    697      0
+G19    698 18.80    698 18.80    648      0    622      0      0      0    648      0
+G22    698 39.41    698 39.41    696      0    695      0      0      0    696      0
+G28    698 72.73    698 72.73    697      0    697      0      0      0    697      0
+G30    698 26.64    698 26.64    688      0    685      0      0      0    688      0
+G03    698 48.04    698 48.04    697      0    697      0      0      0    697      0
+
+Obs below mask ( 10.00 deg)   :    734
+Obs above mask w/ no L1       :     66
+Obs above mask w/ no L2       :   6470
+Obs above mask w/ no P1 | CA  :      0
+Obs above mask w/ no P2 | L2C :   6470
+Obs above mask w/ low L1 S/N  :      0
+Obs above mask w/ low L2 S/N  :      0
+
+Obs reported w/ code | phase :   7204
+Obs deleted (any reason)     :   7204
+Obs complete                 :      0
+
+! Notice ! probably L1-only or P-codeless rx
+
+No. of Rx clock offsets : 0
+Total Rx clock drift    :  0.000000 ms
+Rate of Rx clock drift  :  0.000000 ms/hr
+
+elev (deg)  tot slps <ION rms, m>        5=%       1|m      15=%       2|m
+ 85 - 90      0    0   0.000000  
+ 80 - 85      0    0   0.000000  
+ 75 - 80      0    0   0.000000  
+ 70 - 75      0    0   0.000000  
+ 65 - 70      0    0   0.000000  
+ 60 - 65      0    0   0.000000  
+ 55 - 60      0    0   0.000000  
+ 50 - 55      0    0   0.000000  
+ 45 - 50      0    0   0.000000  
+ 40 - 45      0    0   0.000000  
+ 35 - 40      0    0   0.000000  
+ 30 - 35      0    0   0.000000  
+ 25 - 30      0    0   0.000000  
+ 20 - 25      0    0   0.000000  
+ 15 - 20      0    0   0.000000  
+ 10 - 15      0    0   0.000000  
+  5 - 10      0    0   0.000000  
+  0 -  5      0    0   0.000000  
+    <  0      0    0   0.000000  
+
+MP1  RMS summary (per SV):
+                                      slips  L1 rx  L2 rx  slips  L1 rx  L2 rx
+ SV  obs>10  # del <elev> MP1  rms [m]  < 25   < 25   < 25   > 25   > 25   > 25
+G01    697    697    0.00  0.000000      0      0      0      0      1      0
+G06    545    545    0.00  0.000000      0     11      0      0      0      0
+G07    275    275    0.00  0.000000      0     23      0      0      0      0
+G08    134    134    0.00  0.000000      0     14      0      0      0      0
+G11    696    696    0.00  0.000000      0      0      0      0      7      0
+G17    697    697    0.00  0.000000      0      0      0      0      2      0
+G19    648    648    0.00  0.000000      0     77      0      0      0      0
+G22    696    696    0.00  0.000000      0      0      0      0      4      0
+G28    697    697    0.00  0.000000      0      0      0      0      2      0
+G30    688    688    0.00  0.000000      0      0      0      0      5      0
+G03    697    697    0.00  0.000000      0      0      0      0      2      0
+
+mean MP1  rms         :  0.000000 m
+total mean elevation : 90.00 degrees
+# MP1  obs > 10       :      0
+# qc MP1  slips < 25  :      0
+# Rvr L1 slips < 25  :    125
+# Rvr L2 slips < 25  :      0
+# qc MP1  slips > 25  :      0
+# Rvr L1 slips > 25  :     23
+# Rvr L2 slips > 25  :      0
+
+elev (deg)  tot slps <MP1  rms, m>        5=%       1|m      15=%       2|m
+ 85 - 90      0    0   0.000000  
+ 80 - 85      0    0   0.000000  
+ 75 - 80      0    0   0.000000  
+ 70 - 75      0    0   0.000000  
+ 65 - 70      0    0   0.000000  
+ 60 - 65      0    0   0.000000  
+ 55 - 60      0    0   0.000000  
+ 50 - 55      0    0   0.000000  
+ 45 - 50      0    0   0.000000  
+ 40 - 45      0    0   0.000000  
+ 35 - 40      0    0   0.000000  
+ 30 - 35      0    0   0.000000  
+ 25 - 30      0    0   0.000000  
+ 20 - 25      0    0   0.000000  
+ 15 - 20      0    0   0.000000  
+ 10 - 15      0    0   0.000000  
+  5 - 10      0    0   0.000000  
+  0 -  5      0    0   0.000000  
+    <  0      0    0   0.000000  
+
+MP2  RMS summary (per SV):
+                                      slips  L1 rx  L2 rx  slips  L1 rx  L2 rx
+ SV  obs>10  # del <elev> MP2  rms [m]  < 25   < 25   < 25   > 25   > 25   > 25
+G01    697    697    0.00  0.000000      0      0      0      0      1      0
+G06    545    545    0.00  0.000000      0     11      0      0      0      0
+G07    275    275    0.00  0.000000      0     23      0      0      0      0
+G08    134    134    0.00  0.000000      0     14      0      0      0      0
+G11    696    696    0.00  0.000000      0      0      0      0      7      0
+G17    697    697    0.00  0.000000      0      0      0      0      2      0
+G19    648    648    0.00  0.000000      0     77      0      0      0      0
+G22    696    696    0.00  0.000000      0      0      0      0      4      0
+G28    697    697    0.00  0.000000      0      0      0      0      2      0
+G30    688    688    0.00  0.000000      0      0      0      0      5      0
+G03    697    697    0.00  0.000000      0      0      0      0      2      0
+
+mean MP2  rms         :  0.000000 m
+total mean elevation : 90.00 degrees
+# MP2  obs > 10       :      0
+# qc MP2  slips < 25  :      0
+# Rvr L1 slips < 25  :    125
+# Rvr L2 slips < 25  :      0
+# qc MP2  slips > 25  :      0
+# Rvr L1 slips > 25  :     23
+# Rvr L2 slips > 25  :      0
+
+elev (deg)  tot slps <MP2  rms, m>        5=%       1|m      15=%       2|m
+ 85 - 90      0    0   0.000000  
+ 80 - 85      0    0   0.000000  
+ 75 - 80      0    0   0.000000  
+ 70 - 75      0    0   0.000000  
+ 65 - 70      0    0   0.000000  
+ 60 - 65      0    0   0.000000  
+ 55 - 60      0    0   0.000000  
+ 50 - 55      0    0   0.000000  
+ 45 - 50      0    0   0.000000  
+ 40 - 45      0    0   0.000000  
+ 35 - 40      0    0   0.000000  
+ 30 - 35      0    0   0.000000  
+ 25 - 30      0    0   0.000000  
+ 20 - 25      0    0   0.000000  
+ 15 - 20      0    0   0.000000  
+ 10 - 15      0    0   0.000000  
+  5 - 10      0    0   0.000000  
+  0 -  5      0    0   0.000000  
+    <  0      0    0   0.000000  
+
+S/N L1 summary (per elevation bin):
+elev (deg)  tot SN1 sig    mean          2|0       4|0       6|0       8|0
+ 85 - 90      0   0.000    0.000 
+ 80 - 85      0   0.000    0.000 
+ 75 - 80     48   6.920   46.896 ###||||||||||||||||||||
+ 70 - 75    649   1.937   47.835 #|||||||||||||||||||||||
+ 65 - 70      0   0.000    0.000 
+ 60 - 65      0   0.000    0.000 
+ 55 - 60      0   0.000    0.000 
+ 50 - 55      0   0.000    0.000 
+ 45 - 50    938   2.210   48.235 #|||||||||||||||||||||||
+ 40 - 45   1153   2.120   48.012 #|||||||||||||||||||||||
+ 35 - 40    696   2.861   47.815 #|||||||||||||||||||||||
+ 30 - 35    576   4.178   46.009 ##|||||||||||||||||||||
+ 25 - 30    729   4.869   42.421 ##|||||||||||||||||||
+ 20 - 25    705   6.069   41.994 ###||||||||||||||||||
+ 15 - 20    567   3.272   42.109 ##|||||||||||||||||||
+ 10 - 15    409   5.921   41.301 ###||||||||||||||||||
+  5 - 10    734   6.244   36.550 ###|||||||||||||||
+  0 -  5      0   0.000    0.000 
+    <  0      0   0.000    0.000 
+
+S/N L2 summary (per elevation bin):
+elev (deg)  tot SN2 sig    mean                    0|5                 1|0
+ 85 - 90      0   0.000    0.000 
+ 80 - 85      0   0.000    0.000 
+ 75 - 80      0   0.000    0.000 
+ 70 - 75      0   0.000    0.000 
+ 65 - 70      0   0.000    0.000 
+ 60 - 65      0   0.000    0.000 
+ 55 - 60      0   0.000    0.000 
+ 50 - 55      0   0.000    0.000 
+ 45 - 50      0   0.000    0.000 
+ 40 - 45      0   0.000    0.000 
+ 35 - 40      0   0.000    0.000 
+ 30 - 35      0   0.000    0.000 
+ 25 - 30      0   0.000    0.000 
+ 20 - 25      0   0.000    0.000 
+ 15 - 20      0   0.000    0.000 
+ 10 - 15      0   0.000    0.000 
+  5 - 10      0   0.000    0.000 
+  0 -  5      0   0.000    0.000 
+    <  0      0   0.000    0.000 

@@ -1,0 +1,10 @@
+﻿生成启动时间为 2018/5/9 14:54:03。
+     1>项目“G:\研究生\学术\软件\别人编写的软件\2016.8.14 编译好的rtklib（志鑫给的）\rtklib\rtklib.vcxproj”在节点 2 上(ClCompile 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"E:\vld\a\Visual Leak Detector\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt rnx2rtkp.c
+         rnx2rtkp.c
+     1>已完成生成项目“G:\研究生\学术\软件\别人编写的软件\2016.8.14 编译好的rtklib（志鑫给的）\rtklib\rtklib.vcxproj”(ClCompile 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.52

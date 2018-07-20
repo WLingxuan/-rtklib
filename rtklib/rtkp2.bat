@@ -1,0 +1,1 @@
+rnx2rtkp -p 0 -f 1 -o out.pos kalm141r.obs kalm141r.16n

@@ -1,0 +1,9 @@
+% program   : rnx2rtkp ver.2.4.3
+% inp file  : moving2\\ant1\\kalm141r.obs
+% inp file  : moving2\\ant2\\kalm141r.obs
+% inp file  : moving2\\ant1\\kalm141r.16n
+% obs start : 2016/05/20 10:23:20.0 GPST (week1897 469400.0s)
+% obs end   : 2016/05/20 10:34:57.0 GPST (week1897 470097.0s)
+%
+% (e/n/u-baseline=WGS84,Q=1:fix,2:float,3:sbas,4:dgps,5:single,6:ppp,ns=# of satellites)
+%  GPST          e-baseline(m)  n-baseline(m)  u-baseline(m)   Q  ns   sde(m)   sdn(m)   sdu(m)  sden(m)  sdnu(m)  sdue(m) age(s)  ratio
